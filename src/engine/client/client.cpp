@@ -3636,7 +3636,7 @@ void CClient::Run()
 			else
 			{
 				// Packets end the wait early. The wait can overshoot by a fraction of its duration, so approach the deadline in halving steps.
-				while(WaitTime > 0ns && net_socket_read_wait(m_aNetClient[CONN_MAIN].m_Socket, WaitTime > 200us ? WaitTime / 2 : 0ns) == 0)
+				while(WaitTime > 0ns && net_socket_read_wait(m_aNetClient[CONN_MAIN].m_Socket, WaitTime > 1000us ? WaitTime / 2 : 0ns) == 0)
 				{
 					WaitTime = Deadline - time_get_nanoseconds();
 				}
@@ -4386,7 +4386,11 @@ void CClient::DemoRecorder_UpdateReplayRecorder()
 
 void CClient::DemoRecorder_AddDemoMarker(int Recorder)
 {
-	DemoRecorders()[Recorder].AddDemoMarker();
+	auto &DemoRecorder = DemoRecorders()[Recorder];
+	if(DemoRecorder.IsRecording())
+	{
+		DemoRecorder.AddDemoMarker();
+	}
 }
 
 CDemoRecorder (&CClient::DemoRecorders())[RECORDER_MAX]
