@@ -1,5 +1,8 @@
 /* (c) Magnus Auvinen. See licence.txt in the root of the distribution for more information. */
 /* If you are missing that file, acquire a complete release at teeworlds.com.                */
+
+#include <generated/client_data.h>
+
 #include "menus.h"
 
 #include <base/dbg.h>
@@ -23,7 +26,6 @@
 #include <game/client/ui.h>
 #include <game/client/ui_listbox.h>
 #include <game/localization.h>
-#include <generated/client_data.h>
 
 #include <engine/external/ddnet-custom-clients/custom_clients_ids.h>
 

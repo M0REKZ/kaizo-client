@@ -25,6 +25,11 @@
 #include <memory>
 #include <string>
 
+//+KZ: hating windows, im tired right now
+#ifdef IGNORE
+	#undef IGNORE
+#endif
+
 static const constexpr float MAINMARGIN = 10.0f;
 static const constexpr float SUBMARGIN = 5.0f;
 static const constexpr float ROWSIZE = 25.0f;

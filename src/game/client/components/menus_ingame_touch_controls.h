@@ -6,6 +6,11 @@
 
 #include <memory>
 
+//+KZ: hating windows, im tired right now
+#ifdef IGNORE
+	#undef IGNORE
+#endif
+
 class CMenusIngameTouchControls : public CComponentInterfaces
 {
 public:
