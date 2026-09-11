@@ -2,12 +2,12 @@
 //
 // RenderSettingsKaizo has code from menus_settings.cpp and menus_settings_assets.cpp
 
+#include <generated/client_data.h>
 #include <game/localization.h>
 #include "menus.h"
 #include <game/client/ui_listbox.h>
 #include <engine/shared/localization.h>
 #include <game/client/gameclient.h>
-#include <generated/client_data.h>
 #include <base/helper_kz.h>
 #include <game/version.h>
 

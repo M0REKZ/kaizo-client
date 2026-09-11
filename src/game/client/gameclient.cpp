@@ -1,6 +1,9 @@
 /* (c) Magnus Auvinen. See licence.txt in the root of the distribution for more information. */
 /* If you are missing that file, acquire a complete release at teeworlds.com.                */
 
+#include <generated/client_data.h>
+#include <generated/client_data7.h>
+
 #include "gameclient.h"
 
 #include "components/background.h"
@@ -70,8 +73,6 @@
 #include <engine/textrender.h>
 #include <engine/updater.h>
 
-#include <generated/client_data.h>
-#include <generated/client_data7.h>
 #include <generated/protocol.h>
 #include <generated/protocol7.h>
 #include <generated/protocolglue.h>
