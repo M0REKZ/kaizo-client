@@ -478,7 +478,8 @@ container.sprites.Add(Sprite("part_pulley", set_extras, 4, 0, 1, 1))
 container.sprites.Add(Sprite("part_hectagon", set_extras, 6, 0, 2, 2))
 
 # +KZ Kaizo Network
-exec(open("datasrc/images_kz.py").read())
+with open("datasrc/images_kz.py", encoding='utf-8') as kz_file:
+    exec(kz_file.read())
 
 anim = Animation("base")
 anim.body.frames.Add(AnimKeyframe(0, 0, -4, 0))

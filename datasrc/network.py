@@ -671,4 +671,5 @@ Messages = [
 
 
 # +KZ Kaizo Network
-exec(open("datasrc/network_kz.py").read())
+with open("datasrc/network_kz.py", encoding='utf-8') as kz_file:
+    exec(kz_file.read())
