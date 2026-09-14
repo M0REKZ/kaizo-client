@@ -18,17 +18,18 @@ This repo also uses code from the following mods that are NOT made by +KZ:
 
 * [DDNet-Insta](https://github.com/ddnet-insta/ddnet-insta)
 * [F-DDrace](https://github.com/fokkonaut/F-DDrace/)
-* [Pointer's TW+](https://github.com/Pointer31/tw_plus)
+* [Pointer's TWplus](https://github.com/Pointer31/tw_plus)
 * [Nheir's Bot Mod for Teeworlds](https://github.com/nheir/teeworlds)
 * [Kaffeine's Infclass](https://github.com/infclass/teeworlds-infclassR)
-* [T-Client](https://github.com/sjrc6/TaterClient-ddnet)
+* [Tater Client](https://github.com/sjrc6/TaterClient-ddnet)
 * [Teeworlds Gamer](https://github.com/Dune-jr/teeworlds/tree/gamer)
-* [ICTFX](https://github.com/teeworlds-instagib-elo/iCTFX)
+* [iCTFX](https://github.com/teeworlds-instagib-elo/iCTFX)
 * [FoxNet](https://github.com/FoxNet-DDNet/FoxNet)
-* [Pointer's Duck/Infclass Client](https://pointer31.github.io/duckclient)
+* [Duck/Infclass Client](https://pointer31.github.io/duckclient)
 * [Entity Client](https://github.com/FoxNet-DDNet/Entity-Client-DDNet)
 * [DuckDDNet](https://github.com/Ar1gin/duck-ddnet)
 * [CMClient](https://web.archive.org/web/20260605041224/https://petal.im/cmclient/)
+* [RushieClient](https://github.com/RushieClient/RushieClient-ddnet)
 * ...and other mods and rejected DDNet Pull requests.
 
 Other credits:
