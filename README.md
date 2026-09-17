@@ -4,7 +4,7 @@
 * [Discord Server](https://m0rekz.github.io/kaizo-client-discord.html)
 
 > [!NOTE]
-> This client is not actively maintained
+> <h1>This client is not actively maintained</h1>
 
 This is the source code for Kaizo Client by +KZ, based on Kaizo Network Client, which is based on DDNet
 
