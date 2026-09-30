@@ -16,7 +16,7 @@ This project uses code from the following mods that are NOT made by +KZ:
 * [Duck/Infclass Client](https://pointer31.github.io/duckclient)
 * [Entity Client](https://github.com/FoxNet-DDNet/Entity-Client-DDNet)
 * [DuckDDNet](https://github.com/Ar1gin/duck-ddnet)
-* [CMClient](https://web.archive.org/web/20260605041224/https://petal.im/cmclient/)
+* [CMClient](https://petal.im/cmclient/)
 * [RushieClient](https://github.com/RushieClient/RushieClient-ddnet)
 * ...and other mods and rejected DDNet Pull requests.
 
